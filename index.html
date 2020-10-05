@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新加坡华人义工</title>
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5pdMstbONoFMMBlNwjoZiUAQ8YxA15iVBa8M-FUln3u2Zdg/viewform?embedded=true" width="800"  height="673" frameborder="0" marginheight="0" marginwidth="0">正在加载…</iframe>
+<div class="container-fluid">
+      <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+        <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Tab 1</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Tab 2</a> </li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Tab 3 Dropdown </a>
+          <div class="dropdown-menu"> <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownshoestab1" data-toggle="tab" aria-controls="dropdownShoes">Dropdown Link 1</a> <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">Dropdown Link 2</a> </div>
+        </li>
+      </ul>
+      <!-- Content Panel -->
+      <div id="clothingnavcontent1" class="tab-content">
+        <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+          <p>Content in <b>Tab Panel 1</b></p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+          <p>Content 2</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownshoestab1">
+          <p>Dropdown content#1</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="tabDropDownTwo1" aria-labelledby="dropdownbootstab1">
+          <p>Dropdown content#2</p>
+        </div>
+      </div>
+</div>
+    
+<div id="accordion1" role="tablist">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne1">
+          <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> Collapsible Group 1 </a> </h5>
+        </div>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body">Content for Accordion Panel 1</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Collapsible Group 2 </a> </h5>
+        </div>
+        <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+          <div class="card-body">Content for Accordion Panel 2</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Collapsible Group 3 </a> </h5>
+        </div>
+        <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+          <div class="card-body">Content for Accordion Panel 3</div>
+        </div>
+      </div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.0.0.js"></script>
+</body>
+</html>
